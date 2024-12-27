@@ -23,7 +23,7 @@ window.onscroll = () => {
                 link.classList.remove('active');
             });
 
-            let activeLink = document.querySelector(`header nav a[href*="${id}"]`);
+            let activeLink = document.querySelector(header nav a[href*="${id}"]);
             if (activeLink) {
                 activeLink.classList.add('active');
             }
@@ -54,7 +54,7 @@ ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right' });
 
 // ============================ Typed.js ============================
 const typed = new Typed('.multiple-text', {
-    strings: ['Web Developers', 'Graphics Designers', 'Bloggers'],
+    strings: ['Frontend Developers', 'YouTubers', 'Bloggers'],
     typeSpeed: 100,
     backSpeed: 100,
     backDelay: 1000,
